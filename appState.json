@@ -1,0 +1,132 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "aa0e4400-f4c9-4f98-9ca7-3ba8c1de07fb": {
+        "id": "aa0e4400-f4c9-4f98-9ca7-3ba8c1de07fb",
+        "parent": null,
+        "name": "1504_samplehiru.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "1504_samplehiru.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "1504samplehiru"
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSKunverified",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "aa0e4400-f4c9-4f98-9ca7-3ba8c1de07fb"
+    ],
+    "currentFileId": "aa0e4400-f4c9-4f98-9ca7-3ba8c1de07fb",
+    "resources": {
+      "alexaSKunverified": {
+        "name": "alexaSKunverified",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": false,
+          "skillID": "amzn1.ask.skill.15970ba1-9cb6-4f6f-9b22-e6d5710707f0",
+          "applicationID": ""
+        }
+      },
+      "ebResource": {
+        "name": "ebResource",
+        "type": "EventBridge",
+        "config": {
+          "selectedRegion": "us-east-1"
+        }
+      },
+      "s3as2TestLahiru": {
+        "name": "s3as2TestLahiru",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "as2-test-lahiru"
+          }
+        }
+      },
+      "sqsKTestSQS": {
+        "name": "sqsKTestSQS",
+        "type": "SQS",
+        "config": {
+          "mode": 1,
+          "existing": true,
+          "name": "KTestSQS",
+          "url": "https://sqs.us-east-1.amazonaws.com/318300609668/KTestSQS",
+          "selectedRegion": "us-east-1",
+          "deliveryDelay": "0",
+          "deliveryDelayUnit": "seconds",
+          "queueType": "standardQueue",
+          "defaultVisibilityTimeout": "30",
+          "defaultVisibilityTimeoutUnit": "seconds",
+          "messageRetentionPeriod": "345600",
+          "messageRetentionPeriodUnit": "seconds",
+          "maximumMessageSize": 256,
+          "receiveMessageWaitTime": "0",
+          "queueARN": "arn:aws:sqs:us-east-1:318300609668:KTestSQS"
+        }
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "1504_samplehiru",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586945272717
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "1504_samplehiru",
+      "url": "https://github.com/HirudineeADRT/1504_samplehiru"
+    }
+  }
+}
